@@ -19,7 +19,7 @@ abstract public class Cell {
         } else if (cellValue == DeadCell.SYMBOL) {
             return new DeadCell();
         } 
-        throw new IllegalArgumentException("Illegal cell value character: " + cellValue);
+        throw new IllegalArgumentException("Illegal cell value character......: " + cellValue);
     }
 
 }
